@@ -188,4 +188,5 @@ body {
 	font-size: 0.7em;
 	line-height: 22px;
 	color: #767e9e;
+	overflow: hidden;
 }
