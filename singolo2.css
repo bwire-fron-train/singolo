@@ -1,0 +1,191 @@
+@import "./assets/font/font.css";
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: Lato, Verdana, sans-serif;
+	font-size: 1.6rem;
+	cursor: default;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h4 {
+	font-size: 1.87rem;
+}
+
+.wrapper {
+	width: 1020px;
+	margin: auto;
+}
+
+.portfolio__wrapper {
+	padding: 46px 40px 46px 40px;
+	line-height: 16px;
+	letter-spacing: -0.008em;
+	background: #2d303a;
+	font-family: Lato-Black;	
+	color: #666d89;
+	border-bottom: 6px solid #323746;
+}
+
+.portfolio__description {
+	font-size: 1.75rem;
+	margin-top: 28px;
+	margin-bottom: 2px;
+	letter-spacing: 0.012em;	
+	line-height: 2.95rem;
+	color: #767e9e;
+	font-family: Lato-Light;
+}
+
+.portfolio__chips {
+	margin-top: 10px;
+	padding-inline-start: 0;
+	display: flex;
+	font-size: 1.18rem;
+	color: #767e9e;
+	list-style: none;
+	cursor: pointer;
+}
+
+.portfolio__chip {
+	margin: 1.1px 5px;
+	padding: 4.1px 5.4px;
+	line-height: 12px;
+	letter-spacing: 0.012em;
+	border: 1px solid #767e9e;
+	border-radius: 5px;
+	font-family: Lato;
+}
+
+.portfolio__chip:hover {
+	filter: brightness(150%);
+}
+
+.portfolio__chips > li:first-child {
+	margin-left: 1.2px;
+	padding: 3.8px 6.3px;
+}
+
+.chiplist_marked {
+	color: #c5c5c5;
+	border: 1px solid #c5c5c5;
+}
+
+.portfolio__snippets {
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio__row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10.5px;
+}
+
+.portfolio__row:nth-of-type(n+4), 
+.portfolio__row .potfolio__snippet:nth-of-type(n+5) {
+	display: none;
+}
+
+.potfolio__snippet {
+	margin-bottom: 8px;
+}
+
+.potfolio__snippet:hover {
+	transform: scale(1.2);
+}
+
+.aboutus__wrapper {
+	padding: 45px 28px 35px 40px;
+	line-height: 18px;
+	letter-spacing: -0.01em;
+	background: #f2f2f2;
+	color: #767e9e;
+	font-family: Lato-Black;
+	border-bottom: 6px solid #ffffff;
+}
+
+.aboutus__description {
+	font-size: 1.75rem;
+	margin-top: 26.6px;
+	margin-bottom: 2px;
+	letter-spacing: 0.022em;	
+	line-height: 2.98rem;
+	color: #767e9e;
+	font-family: Lato-Light;
+}
+
+.descriptiom_wide {
+	letter-spacing: 0.012em;	
+}
+
+.aboutus__snippets {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 33px;
+	padding-right: 3px;
+}
+
+.aboutus__snippet {
+	margin: 10px 8px;
+	width: 301px;
+	overflow: hidden;
+}
+
+.aboutus__snippets > div:first-child {
+	margin-left: 0;
+}
+
+.aboutus__person {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	letter-spacing: -0.02em;
+	font-family: Lato-Bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.aboutus__personinfo {
+	margin-top: 10.3px;
+	line-height: 21.5px;
+	font-family: Lato-Light;
+	font-size: 1.2rem;
+	font-family: Lato;	
+}
+
+.ls-1 {
+	letter-spacing: -0.005em;
+}
+
+.ls-2 {
+	letter-spacing: 0.009em;
+}
+
+.aboutus__links {
+	margin-top: 20px;
+	padding-inline-start: 0;
+	display: flex;
+	list-style: none;
+	cursor: pointer;
+}
+
+.aboutus__link {
+	margin: 2.8px;
+	border-radius: 50%;
+}
+
+.aboutus__link:hover {
+	opacity: 0.5;
+}
+
+.aboutus__links > li:first-child {
+	margin-left: 0;
+}
