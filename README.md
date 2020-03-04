@@ -1,2 +1,2 @@
 # singolo
-RS School. Singolo. Part 1
+RS School. Singolo task.
